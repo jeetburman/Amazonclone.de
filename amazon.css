@@ -1,0 +1,499 @@
+*{
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 70px;
+    width: 125px;
+    background-image: url(https://th.bing.com/th/id/OIP.W59Ku3InccKRCC8BwXDW7wHaFc?w=680&h=500&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    border: border-box;
+}
+.box:hover{
+    border: 0.8px solid white;
+    border: border-box;
+}
+.location{
+    text-align: center;
+    margin-top: 9px;
+}
+.navsearch{
+    display: flex;
+    width: 80%;
+    height:50px;
+    margin-top: 9px;
+}
+.navsearch:active{
+    border: solid 0.8px orange;
+}
+select{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.searchbar{
+    width: 720px;
+}
+.searchicon{
+    width: 40px;
+    border-top-right-radius:10%;
+    border-bottom-right-radius:10%;
+    background-color: orange;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    margin-top: 8px;
+    text-align: center;
+}
+.returns{
+   text-align: center;
+   margin-top: 9px;
+}
+.cart{
+    text-align: center;
+    font-size: larger;
+    margin-top: 8px;
+}
+.subnav{
+    height: 40px;
+    background-color: rgb(19, 18, 18);;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    margin-top: 8px;
+    font-weight: 200;
+    margin-left: 6px;
+}
+.bigpanel{
+    font-size: x-large;
+}
+.banner{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71hyuK6oG9L._AC_SL1500_.jpg);
+    background-size: cover;
+    height: 425px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    /*display: flex-end;*/
+    background-color: #FAF9F6;
+    flex-wrap: wrap;
+}
+.shop1{
+    background-color: #dddddd;
+    margin-top: -30px;
+    height: 350px;
+    width: 290px;   
+}
+.img1{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://th.bing.com/th/id/OIP.JfAYxNfskIQovTbm0IfT5AEsDI?rs=1&pid=ImgDetMain);
+    background-size: cover;  
+}
+#op{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+.shop2{
+    background-color: #dddddd;
+    margin-top: -30px;
+    height: 350px;
+    width: 290px;
+    
+}
+.img2{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://www.yankodesign.com/images/design_news/2022/02/iphone-15-concept-includes-a-scroll-wheel-alongside-the-periscope-lens-and-were-wondering-why/Apple-iPhone-15-concept_3.jpg);
+    background-size: cover;  
+}
+.shop3{
+    background-color: #dddddd;
+    margin-top: -30px;
+    height: 350px;
+    width: 290px;
+}
+.img3{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://api.time.com/wp-content/uploads/2016/03/pr_alexafamily_v01.jpg);
+    background-size: cover;  
+}
+.shop4{
+    margin-top: -50px;
+    height: 350px;
+    width: 290px;
+    justify-content: space-evenly;
+}
+
+.subshop1{
+    height: 40%;
+    background-color: #dddddd;
+    margin-top: 5%;
+    padding-left: 15px;
+}
+.subshop2{
+    height: 55%;
+    color: white;
+    background-color: #dddddd;
+    background-image: url(https://cdn.business2community.com/wp-content/uploads/2016/01/5-stars1-300x211.jpg.jpg);
+    background-size: cover;  
+    text-align: center;
+}
+.shop5{
+     height: 350px;
+     background-color: #dddddd;
+     width: 290px;
+     margin-top: 30px;
+ }
+ .img5{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://tricor.de/wp-content/uploads/2018/11/home_applience_header_r.jpg);
+    background-size: cover;  
+ }
+ .shop6{
+     height: 350px;
+     width: 290px;
+     background-color: #dddddd;
+     margin-top: 30px;
+ }
+ .img6{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://i.pinimg.com/564x/56/81/f2/5681f25e234842221bd134c9a5ef9023.jpg);
+    background-size: cover;  
+ }
+ .shop7{
+     height: 350px;
+     width: 290px;
+     background-color: #dddddd;
+     margin-top: 30px;
+ }
+ .img7{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://th.bing.com/th/id/OIP.jPltqSM9kygFZ9d7uSboyAHaE8?rs=1&pid=ImgDetMain);
+    background-size: cover;  
+ }
+ .shop8{
+     height: 350px;
+     width: 290px;     
+     background-color: #dddddd;
+     margin-top: 30px;
+ }
+ .img8{
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://th.bing.com/th/id/R.9aa274fb1ddb6c1129b3a95e0bfaa777?rik=kCXXKKhY79J3%2fg&riu=http%3a%2f%2fwww.trbimg.com%2fimg-5b103d91%2fturbine%2fsc-auto-tips-best-interiors-20180529&ehk=CUV1di9nUSh1a7lRyyO%2fB1yrF0Ml65cdIQBbQQeO1%2bI%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;  
+ }
+.preaftercontent{
+    margin-top:30px;
+    background-color:#dddddd;
+}
+.aftercontent{
+    margin-top:-30px;
+    background-color: #dddddd;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+   justify-content: space-evenly;   
+   align-items: center; 
+}
+#discount{
+    background-color: deeppink;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#discount2{
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder
+}
+#price{
+    padding-left:8px;
+}
+#details{
+    padding-left: 5px;
+    margin-top: -15px;
+}
+.sub1{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+.photu1{
+    height: 70%;
+    background-image: url(https://th.bing.com/th/id/OIP.4i0R-_dhfxEREBGhmCSfLQHaHa?pid=ImgDet&w=474&h=474&rs=1);
+    background-size: cover;
+}
+.sub2{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+.photu2{
+    height: 70%;
+    background-image: url(https://www.mikepawleysports.com.au/img/product/head-tour-xt-tennis-balls-3-ball-can-3303-1600.jpg);
+    background-size: cover;
+}
+.sub3{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+.photu3{
+    height: 70%;
+    background-image: url(https://www.tennisnuts.com/images/product/full/1042A076-400_C.jpg);
+    background-size: cover;
+}
+.sub4{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+.photu4{
+    height: 70%;
+    background-image: url(https://th.bing.com/th/id/OIP.VaAwLHaJQTUUwHrOjCGwoAHaHa?pid=ImgDet&w=183&h=183&c=7);
+    background-size: cover;
+}
+.sub5{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+}
+.photu5{
+    height: 70%;
+    background-image: url(https://i.pinimg.com/originals/7a/20/ca/7a20ca4afeca83f74a80ae5a18704f83.jpg);
+    background-size: cover;
+}
+.precategory{
+   background-color: #dddddd;
+    margin-top: 30px;
+    display: flex;
+}
+.category{
+    background-color: #dddddd;
+    height: 250px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#type{
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    text-align: center;
+}
+.cat1{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/736x/b4/75/bb/b475bb8ce8b7db9d2204e705f7a58203--christmas-room-christmas-living-rooms.jpg);
+    background-size: cover;
+}
+.cat2{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://img.freepik.com/free-photo/excited-man-with-stack-christmas-gifts_329181-2756.jpg);
+    background-size: cover;
+}
+.cat3{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://www.photo12.com/lt/ttm22b10_075.jpg);
+    background-size: cover;
+}
+.cat4{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://thumbs.dreamstime.com/b/reading-together-family-mother-two-kids-book-christmas-evening-60092577.jpg);
+    background-size: cover;
+}
+.cat5{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://th.bing.com/th/id/OIP.ReoNg_1AK-8khRscAgmxYgHaHg?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.cat6{
+    height: 80%;
+    width: 16%;
+    border-radius: 50%;
+    background-image: url(https://www.familyhandyman.com/wp-content/uploads/2018/11/shutterstock_767866840-pets-300x300.jpg);
+    background-size: cover;
+}
+.lastrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dabba1{
+    background-color: #dddddd;
+    height: 350px;
+    width: 260px;
+    margin-top: 30px;
+}
+.group1{
+    height: 70%;
+    background-image: url(https://th.bing.com/th/id/R.a7bbce9abde4de050693b6ee403f5562?rik=4blnAv31%2b1AMEQ&riu=http%3a%2f%2fwww.womenfitness.net%2fimg2014%2fartimg%2ffeb%2fPersonal-Care.jpg&ehk=RY9pATycT5V8PVprcKMaeStm%2f6NUftC3IgBidQs8%2ftQ%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dabba2{
+    background-color: #dddddd;
+    height: 350px;
+    width: 260px;
+    margin-top: 30px;
+}
+.group2{
+    height: 70%;
+    background-image: url(https://th.bing.com/th/id/OIP.dQJXy0gXF6E6j6dJON3F9gHaEi?w=317&h=194&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dabba3{
+    background-color: #dddddd;
+    height: 350px;
+    width: 260px;
+    margin-top: 30px;
+}
+.group3{
+    height: 70%;
+    background-image: url(https://www.marketing91.com/wp-content/uploads/2018/05/Cosmetic-Brands.jpg);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dabba4{
+    background-color: #dddddd;
+    height: 350px;
+    width: 260px;
+    margin-top: 30px;
+}
+.group4{
+    height: 70%;
+    background-image: url(https://th.bing.com/th/id/OIP.CqRX6Ou26q-C_SYGkxx0iAHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.firstfoot{
+    height: 150px;
+    margin-top: 30px;
+    background-color: #dddddd;
+}
+#anchor{
+    text-align: right;
+    padding-right: 5px;
+}
+.backtotop{
+    height: 50px;
+    background-color: rgb(110, 110, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lasttray{
+    background-color: #222f3d;
+    height: 400px;
+    color: #FAF9F6;
+    display: flex;
+}
+#tray1 a{
+    font-size: 0.9rem;
+    display: block;
+    color: #dddddd;
+}
+#tray2 a{
+    font-size: 0.9rem;
+    display: block;
+    color: #dddddd;
+}
+#tray3 a{
+    font-size: 0.9rem;
+    display: block;
+    color: #dddddd;
+}
+#tray4 a{
+    font-size: 0.9rem;
+    display: block;
+    color: #dddddd;
+}
+.secondlast{
+    height: 150px;
+    background-color: #222f3d;
+    border: 0.6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastlogo{
+    height: 60px;
+    width: 100px;
+    background-image: url(https://th.bing.com/th/id/OIP.W59Ku3InccKRCC8BwXDW7wHaFc?w=680&h=500&rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+#langdrop{
+    background-color: #222f3d;
+    border: 0.8px solid #dddddd;
+    height: 40px;
+    width: 100px;
+    color: #dddddd;
+    margin-left: 40px;
+    text-align: center;
+    border-radius:5%;
+}
+.country{
+    height: 38px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: #222f3d;
+    color: #dddddd;
+    border: 0.8px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.flag{
+    height: 15px;
+    width: 20px;
+    background-image: url(https://th.bing.com/th/id/OIP.-0JgOkcYn_kcem1JsgQnKwHaE8?w=265&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    margin-right: 5px;
+}
